@@ -2,38 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/mobile.css">
+  <link rel="stylesheet" href="styles/desktop.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Expenses chart component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Expenses chart component</title>
 </head>
 <body>
 
-  My balance
-  $921.48
+  <div class="container">
+    <div class="balance">
+      <div class="title">
+        <h2>My Balance</h2>
+        <p>$921.48</p>
+      </div>
+      <div class="logo"></div>
+    </div>
 
-  Spending - Last 7 days
+    <div class="chart">
+      <h2>Spending - Last 7 days</h2>
 
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
+      <div class="bars"></div>
+    </div>
 
-  Total this month
-  $478.33
-
-  +2.4%
-  from last month
+    <div class="totals">
+      <div class="thisMonth"></div>
+      <div class="lastmonth"></div>
+    </div>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
