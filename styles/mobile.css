@@ -15,3 +15,34 @@
   --Cream: hsl(27, 66%, 92%);
   --Very-pale-orange: hsl(33, 100%, 98%);
 }
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: var(--Cream);
+}
+
+.balance {
+    margin: 1rem auto;
+    width: 95%;
+    padding: 0.75rem;
+    background-color: var(--Soft-red);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--Very-pale-orange);
+}
+
+.balance h2 {
+    font-weight: 700;
+    font-size: 1.75rem;
+    height: 3rem;
+}
+
+.balance p {
+    font-weight: 400;
+}
+
+.container {
+    margin: 0 auto;
+}
