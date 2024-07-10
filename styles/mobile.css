@@ -44,5 +44,11 @@ body {
 }
 
 .container {
-    margin: 0 auto;
+    margin: 1rem auto;
+    height: 65vh;
+    background-color: white;
+    width: 95%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
