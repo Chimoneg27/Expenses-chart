@@ -51,4 +51,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 1rem 0.75rem;
+    border-radius: 10px;
+}
+
+.totals {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thisMonth p {
+  color: var(--Cyan);
 }
