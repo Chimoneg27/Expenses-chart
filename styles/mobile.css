@@ -58,8 +58,20 @@ body {
 .totals {
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid var(--Medium-brown);
+    padding: 1rem;
 }
 
 .thisMonth p {
+  font-size: 0.79rem;
   color: var(--Cyan);
+}
+
+.lastmonth p:first-child {
+    color: black;
+    font-weight: 700;
+}
+
+.lastmonth {
+    color: var(--Cyan);
 }
