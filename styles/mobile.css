@@ -75,3 +75,11 @@ body {
 .lastmonth {
     color: var(--Cyan);
 }
+
+.bars {
+    height: 100%;
+}
+
+#myChart {
+    height: 100%;
+}
