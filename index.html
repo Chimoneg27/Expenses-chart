@@ -27,17 +27,15 @@
     <div class="chart">
       <h2>Spending - Last 7 days</h2>
 
-      <div class="bars"></div>
+      <div class="bars">
+        <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+      </div>
     </div>
 
     <div class="totals">
       <div class="thisMonth">
         <p>Total this month</p>
         <h2>$478.33</h2>
-      </div>
-
-      <div id="mychart">
-        <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
       </div>
       <div class="lastmonth">
         <p>+2.4%</p>
@@ -52,8 +50,7 @@
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-  <script src='JS/jsonData.js' type='module'></script>
-  <script src="JS/script.js" type='module'></script>
+  <script type='module' src="JS/script.js"></script>
 </body>
 
 </html>
