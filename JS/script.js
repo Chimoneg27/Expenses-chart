@@ -1,7 +1,4 @@
-// http://localhost:8000/data.json
+const url = 'https://raw.githubusercontent.com/Chimoneg27/Expenses-chart/main/data.json'
 let days = []
 let prices = []
-const fs = require('fs')
 
-const budget = fs.readFileSync('../data.json', 'utf8')
-console.log(budget)
