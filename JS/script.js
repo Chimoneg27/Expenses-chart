@@ -23,7 +23,14 @@ fetch(url)
                 }]
             },
             options: {
-                legend: {display: false}
+                plugins: {
+                    legend: { display: false }  // Hide the legend
+                },
+                scales: {
+                    y: {
+                        display: false
+                    }
+                }
             }
         })
     }
