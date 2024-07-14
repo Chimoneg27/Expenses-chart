@@ -30,7 +30,9 @@ fetch(url)
                     y: {
                         display: false
                     }
-                }
+                },
+                responsive: false,
+                maintainAspectRatio: false
             }
         })
     }
