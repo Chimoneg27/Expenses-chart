@@ -80,6 +80,13 @@ body {
     height: 100%;
 }
 
-#myChart {
-    height: 100%;
+.chart {
+    height: 100%; 
+    width: 100%;
+}
+
+canvas {
+    height : 100%;
+    width: 320px;
+    margin: 5rem auto;
 }
