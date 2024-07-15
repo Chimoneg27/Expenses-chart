@@ -1,4 +1,14 @@
-@media only screen and (min-width: 400px) {}
+@media only screen and (min-width: 400px) {
+    .container {
+        max-width: 385px;
+        height: auto;
+    }
+
+    .balance {
+        max-width: 385px;
+        max-height: 95px;
+    }
+}
 
 
 
