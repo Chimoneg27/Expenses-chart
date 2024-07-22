@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/Chimoneg27/Expenses-chart)
-- Live Site URL: [Add live site URL here](https://expenses-chart-garvin.netlify.app/)
+- Live Site URL: [Live site URL here](https://expenses-chart-garvin.netlify.app/)
 
 ## My process
 
@@ -45,7 +45,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - JSON data
 - Fetch API
